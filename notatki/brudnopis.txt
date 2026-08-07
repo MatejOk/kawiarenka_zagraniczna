@@ -1,0 +1,52 @@
+Wysłanie aktualizacji (Magiczna trójka komend)
+Kiedy wprowadzisz zmiany i zapiszesz pliki (Ctrl + S), klikasz w dolne czarne okienko (terminal) w Visual Studio Code. Jeśli serwer działa, zatrzymaj go (Ctrl + C i Y).
+
+Następnie wpisujesz po kolei te trzy komendy (po każdej wciskając Enter):
+
+git add .
+(To polecenie "pakuje" wszystkie zmienione przez Ciebie pliki).
+
+git commit -m "Dodanie nowych zagadek o wezlach"
+(To polecenie nadaje paczce nazwę/etykietę. W cudzysłowie wpisujesz, co krótko zrobiłeś, żeby w przyszłości wiedzieć, co to była za aktualizacja).
+
+git push
+(To polecenie "wysyła" zapakowane zmiany na serwery GitHuba).
+
+{
+    title: "3. Trochę Teorii",
+    content:""
+  },
+
+
+export default function Home() {
+  return (
+    <main className="min-h-screen flex flex-col items-center justify-center bg-[#1f4220] text-white p-6">
+      
+      {/* Tytuł naszej gry */}
+      <h1 className="text-4xl font-bold mb-6 text-center text-[#facc15]">
+        Operacja "Kryptografia"
+      </h1>
+      
+      {/* Wstęp dla graczy */}
+      <p className="text-lg mb-8 text-center max-w-md text-gray-100">
+        Gratulacje udało Ci się dotrzeć na początek gry o kryptografi. Pamiętaj każdy tutaj gra na własną rękę i tylko najlepszym uda zdobyć się nagrody za dotarcie do końca jako pierwszy. Zanim rozpoczniecie, musicie zautoryzować swój dostęp. Wpisz padane Ci hasło.
+      </p>
+      
+      {/* Pole do wpisywania i przycisk */}
+      <div className="flex flex-col gap-4 w-full max-w-xs">
+        <input 
+          type="text" 
+          placeholder="Hasło..." 
+          className="px-4 py-3 rounded-md text-black font-bold text-center outline-none border-2 border-transparent focus:border-[#facc15]"
+        />
+        <button className="bg-[#facc15] hover:bg-[#eab308] text-[#1f4220] px-4 py-3 rounded-md font-bold transition-colors uppercase tracking-widest text-sm">
+          Sprawdź
+        </button>
+      </div>
+
+    </main>
+  );
+}
+
+
+

@@ -1,0 +1,16 @@
+0. orientalis
+1. gaderypoluki
+2. między 80 a 100
+3. trzeba deszyfrować a nie szyfrować (iść w lewo)
+4. Pierwsze litery wierszy
+5. szyba, rower, niebo, asy, metr, czerwone
+6. test wiedzy
+7. tylko Alicja może móc otworzyć tę skrzynkę zatem do czego tylko Alicja ma klucz
+8. każdy musi móc otworzyć ten klucz 
+9. test wiedzy
+10. jest napisane w definicji
+11. tekst jawny u góry, klucz po lewym boku i porównywać litera po literze
+12. musi jeszcze raz użyć swojego klucza prywatnego
+13. test wiedzy
+14. Flaga na budynku, w tym miejscu też jest większa piramida
+15. Ostatnią godzine będzie tam siedział i muzeum Beksińskiego w zamku 
