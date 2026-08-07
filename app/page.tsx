@@ -192,14 +192,14 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center bg-[#1f4220] text-white p-6">
+    <main className="min-h-screen bg-[#c8c3b5] flex flex-col items-center justify-center p-4">
       
-      <h1 className="text-4xl font-bold mb-6 text-center text-[#facc15]">
+      <h1 className="text-3xl md:text-5xl font-bold mb-6 text-center text-[#b93721]">
         {currentPuzzle.title}
       </h1>
       
-      <p className="text-base sm:text-lg md:text-xl mb-8 mx-auto w-fit text-center text-gray-100 whitespace-pre-line px-4">
-        {currentPuzzle.content}
+      <p className="text-base sm:text-lg md:text-xl mb-8 mx-auto w-fit text-center text-[#b93721] whitespace-pre-line px-4">
+      {currentPuzzle.content}
       </p>
       
       {/* NOWE: Jeśli zagadka ma obrazek, wyświetl go */}
@@ -251,11 +251,9 @@ export default function Home() {
         )}
         
         <button 
-          type="button" // Upewniamy się, że to zwykły przycisk
-          onClick={checkPassword}
-          className="bg-[#facc15] hover:bg-[#eab308] text-[#1f4220] px-4 py-3 rounded-md font-bold transition-colors uppercase tracking-widest text-sm"
+          className="w-full max-w-xs font-bold py-3 px-4 rounded transition-colors bg-[#b93721] text-[#c8c3b5] hover:bg-[#9a2d1b]"
         >
-          Sprawdź
+          SPRAWDŹ
         </button>
       </div>
 
