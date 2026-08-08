@@ -21,10 +21,67 @@ const puzzles: Puzzle[] = [
             "Pierwsze hasło to: start! "
   },
   {
-    title: "1. NA POCZĄ",
-    content: "Zaczniemy od czegoś prostego co na pewno znacie - szyfry podstawieniowe czyli te które polegają na podstawianiu liter według pewnego klucza na inne litery lub ustalone znaki. Jest to najpopularniejszy typ szyfrów w naszym środowisku harceskim i skautowym. Są to  między innymi szyfry: czekoladka, gaderypoluki, malinowe buty, szyfr telefonowy czy szyfr cezara. \n" +
-    "SZYFOGRAM: ACHTERSZTAG"
+    title: "W którym roku odbyło się ostatnie Jamobree?",
+    content: ""
   },
+  {
+    title: "A w jakim kraju się odbyło",
+    content: ""
+  },
+  {
+    title: "W jakim kraju za rok odbędzie się zlot skautów i harcerzy z całego świata?",
+    content: ""
+  },
+  {
+    title: "Z jakiego kraju jest ta chusta?",
+    content: ""
+  },
+  {
+    title: "A ta?",
+    content: ""
+  },
+  {
+    title: "Jak nazywa się ogólnoeuropejski zlot przeznaczony specjalnie dla skautów starszych (wędrowników)?",
+    content: ""
+  },
+   {
+    title: "A ta chusta skąd jest?",
+    content: ""
+  },
+  {
+    title: "Jak brzmi oficjalny, 4-literowy skrót Światowej Organizacji Ruchu Skautowego, która jest głównym organizatorem Jamboree",
+    content: ""
+  },
+  {
+    title: "Jak nazywa się coroczny zlot skautowy, odbywający się w Europie Środkowej, zazwyczaj w weekend Zielonych Świątek?",
+    content: ""
+  },
+  {
+    title: "",
+    content: ""
+  },
+  {
+    title: "",
+    content: ""
+  },
+  {
+    title: "",
+    content: ""
+  },
+  {
+    title: "",
+    content: ""
+  },
+  {
+    title: "",
+    content: ""
+  },
+  {
+    title: "",
+    content: ""
+  },
+
+
   {
     title: "2. Kod a Szyfr?",
     content: "Dla laików tematu jest to to samo, ale czy jest tak na pewno?\n"+

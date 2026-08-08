@@ -4,21 +4,18 @@ import { NextResponse } from "next/server";
 // Pierwsze hasło jest dla etapu 0, drugie dla etapu 1, itd.
 const answers = [
   "start!", // Hasło startowe
-  "gchtdysztga",     // Odpowiedź na zagadkę 1
-  "90",      // Odpowiedź na zagadkę 2
-  "RCHÓR GZŚLT",
-  "orientalis",
-  "szyfrowanie asymetryczne",
-  "Szyfrogram",
-  "klucza publicznego Alicji",
-  "kluczem prywatnym Boba",
-  "szyfrowania symetrycznego",
-  "tożsamość",
-  "GIBVDLZLW",
-  "Pomarańczowy",
-  "publiczny",
-  "Paryż",
-  "Sanok"
+  "2023",
+  "Korea Południowa",
+  "Polsce",
+  "Brazylia",
+  "Szwecja",
+  "Roverway",
+  "Francja",
+  "WOSM",
+  "Intercamp"
+
+
+  
 ];
 
 export async function POST(request: Request) {
