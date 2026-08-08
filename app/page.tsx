@@ -50,7 +50,6 @@ export default function Home() {
     try {
       const res = await fetch("/api/verify", {
         method: "POST",
-        // Dodaliśmy Headers - to ułatwia komunikację z serwerem Next.js
         headers: {
           "Content-Type": "application/json",
         },
@@ -78,6 +77,7 @@ export default function Home() {
 
   const currentPuzzle = puzzles[level];
 
+  // EKRAN KOŃCOWY GRY
   if (level >= puzzles.length - 1) {
     return (
       <main className="min-h-screen flex flex-col items-center justify-center bg-[#1f4220] text-white p-6">
@@ -87,6 +87,7 @@ export default function Home() {
     );
   }
 
+  // GŁÓWNY EKRAN ZAGADEK (Upewnij się w layout.tsx, że czcionka posiada polskie znaki!)
   return (
     <main className="min-h-screen bg-[#c8c3b5] flex flex-col items-center justify-center p-4">
       
@@ -106,9 +107,10 @@ export default function Home() {
           className="mb-8 w-full max-w-md rounded-lg shadow-lg border-2 border-[#facc15]"
         />
       )}
-      {/* NOWE: Drugi tekst (pojawia się pod pierwszym obrazkiem) */}
+
+      {/* NOWE: Drugi tekst (pojawia się pod pierwszym obrazkiem, kolor z chusty) */}
       {currentPuzzle.content2 && (
-        <p className="text-base sm:text-lg md:text-xl mb-8 mx-auto w-fit text-center text-gray-100 whitespace-pre-line px-4">
+        <p className="text-base sm:text-lg md:text-xl mb-8 mx-auto w-fit text-center text-[#b93721] whitespace-pre-line px-4">
           {currentPuzzle.content2}
         </p>
       )}
@@ -121,6 +123,7 @@ export default function Home() {
           className="mb-8 w-full max-w-md rounded-lg shadow-lg border-2 border-[#facc15]"
         />
       )}
+
       {/* NOWE: Jeśli zagadka ma dźwięk, pokaż odtwarzacz */}
       {currentPuzzle.audio && (
         <audio 
@@ -141,14 +144,15 @@ export default function Home() {
         />
         
         {error && (
-          <p className="text-red-400 text-sm text-center font-bold">
+          <p className="text-red-600 text-sm text-center font-bold">
             Błędne hasło, spróbuj ponownie!
           </p>
         )}
         
         <button
+          onClick={checkPassword} // DODANE: Przycisk w końcu wywołuje funkcję!
           className="relative z-50 w-full max-w-xs font-bold py-3 px-4 rounded transition-colors bg-[#b93721] text-[#c8c3b5] hover:bg-[#9a2d1b] active:scale-95"
->
+        >
           SPRAWDŹ
         </button>
       </div>
