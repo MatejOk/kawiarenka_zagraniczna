@@ -25,7 +25,7 @@ const puzzles: Puzzle[] = [
     content: ""
   },
   {
-    title: "A w jakim kraju się odbyło",
+    title: "A w jakim kraju się odbyło?",
     content: ""
   },
   {
