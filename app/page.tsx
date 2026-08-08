@@ -57,19 +57,19 @@ const puzzles: Puzzle[] = [
     content: ""
   },
   {
-    title: "",
+    title: "Którą edycją Jamboree będzie zlot który odbędzie się w Polsce",
     content: ""
   },
   {
-    title: "",
+    title: "Plakietka z Jamboree na samym środku tablicy to plakiekta ze zlotu w?",
     content: ""
   },
   {
-    title: "",
+    title: "Jaki rozmiar ma kimono? ",
     content: ""
   },
   {
-    title: "",
+    title: "Wpisz kod po kartką zawieszoną na Stanach Zjednoczonych",
     content: ""
   },
   {

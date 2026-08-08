@@ -12,7 +12,14 @@ const answers = [
   "Roverway",
   "Francja",
   "WOSM",
-  "Intercamp"
+  "Intercamp",
+  "26",
+  "Australii",
+  "F",
+  "87CÓJ",
+  
+
+
 
 
   
