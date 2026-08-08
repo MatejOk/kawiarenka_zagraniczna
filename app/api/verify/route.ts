@@ -5,7 +5,7 @@ import { NextResponse } from "next/server";
 const answers = [
   "start!", // Hasło startowe
   "2023",
-  "Korea Południowa",
+  "Korei Południowej",
   "Polsce",
   "Brazylia",
   "Szwecja",
