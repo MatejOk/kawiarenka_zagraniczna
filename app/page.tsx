@@ -21,7 +21,7 @@ const puzzles: Puzzle[] = [
             "Pierwsze hasło to: start! "
   },
   {
-    title: "1. NA POCZĄTEK...",
+    title: "1. NA POCZĄ",
     content: "Zaczniemy od czegoś prostego co na pewno znacie - szyfry podstawieniowe czyli te które polegają na podstawianiu liter według pewnego klucza na inne litery lub ustalone znaki. Jest to najpopularniejszy typ szyfrów w naszym środowisku harceskim i skautowym. Są to  między innymi szyfry: czekoladka, gaderypoluki, malinowe buty, szyfr telefonowy czy szyfr cezara. \n" +
     "SZYFOGRAM: ACHTERSZTAG"
   },
@@ -146,9 +146,9 @@ export default function Home() {
           </p>
         )}
         
-        <button 
-          className="w-full max-w-xs font-bold py-3 px-4 rounded transition-colors bg-[#b93721] text-[#c8c3b5] hover:bg-[#9a2d1b]"
-        >
+        <button
+          className="relative z-50 w-full max-w-xs font-bold py-3 px-4 rounded transition-colors bg-[#b93721] text-[#c8c3b5] hover:bg-[#9a2d1b] active:scale-95"
+>
           SPRAWDŹ
         </button>
       </div>
